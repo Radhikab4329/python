@@ -17,5 +17,5 @@ operator = sys.argv[2]
 num2 = sys.argv[3]
 
 if operation == "add":
-    output = add(num1, num2)
+    output = addition(num1, num2)
 
