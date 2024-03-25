@@ -1,2 +1,2 @@
-student_names = ("Ram", "Rishi", "Rithu", "Sai")
+student_names = ["Ram", "Rishi", "Rithu", "Sai"]
 print(student_names)
