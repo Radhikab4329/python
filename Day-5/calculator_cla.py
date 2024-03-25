@@ -18,4 +18,6 @@ num2 = float(sys.argv[3])
 
 if operation == "add":
     output = addition(num1, num2)
+    print(output)
+
 
