@@ -2,8 +2,8 @@ import os
 
 folders = input("please provide space in between folder names:").split()
 
-    for i in folders:
-        files = os.listdir(i)
-        print(files)
+for folder in folders:
+    files = os.listdir(folder)
+    print(files)
 
 
