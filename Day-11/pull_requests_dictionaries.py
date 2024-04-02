@@ -1,6 +1,9 @@
 import requests
 
-response = requests.get("https://api.github.com/repos/{kubernetes}/{kubernetes}/pulls")
+response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
 
-print(response)
+complete_details = response.json()
+
+print(complete_details[0]["user"]["login"])
+
 
